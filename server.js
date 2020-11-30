@@ -14,7 +14,7 @@ app.use(express.json({ extended: false }));
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.get('/', (req, res) => console.log('Financial cents Server'));
+app.get('/', (req, res) => console.log('Server is running'));
 
 // Routes
 // app.use('/api/auth', require('./routes/auth'));
